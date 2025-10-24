@@ -18,7 +18,7 @@ resource "aws_instance" "main" {
   tags = {
     Name        = "PromptInfra Instance"
     ManagedBy   = "promptinfra"
-    CreatedAt   = "2025-10-14"
+    CreatedAt   = "2025-10-15"
     Environment = "development"
   }
 }
